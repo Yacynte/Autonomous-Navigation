@@ -1959,9 +1959,9 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
  .text.async_context_base_needs_servicing
                 0x00000000       0x56 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
- .text          0x00000000        0x0 /tmp/cceSVbMn.o
- .data          0x00000000        0x0 /tmp/cceSVbMn.o
- .bss           0x00000000        0x0 /tmp/cceSVbMn.o
+ .text          0x00000000        0x0 /tmp/ccS86YI3.o
+ .data          0x00000000        0x0 /tmp/ccS86YI3.o
+ .bss           0x00000000        0x0 /tmp/ccS86YI3.o
  .data          0x00000000        0x0 /home/divan/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /home/divan/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /home/divan/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strncmp.o)
@@ -2282,7 +2282,7 @@ LOAD /home/divan/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/cceSVbMn.o
+ .boot2         0x10000000      0x100 /tmp/ccS86YI3.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -4610,7 +4610,7 @@ LOAD CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2
 LOAD CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 LOAD CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
-LOAD /tmp/cceSVbMn.o
+LOAD /tmp/ccS86YI3.o
 LOAD /home/divan/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /home/divan/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4745,7 +4745,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000938       0x2c CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
  .ARM.attributes
-                0x00000964       0x22 /tmp/cceSVbMn.o
+                0x00000964       0x22 /tmp/ccS86YI3.o
  .ARM.attributes
                 0x00000986       0x1e /home/divan/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -4808,117 +4808,117 @@ LOAD linker stubs
  .comment       0x00000044       0x45 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .comment       0x00000044       0x45 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
 
-.debug_info     0x00000000    0x3c90b
- .debug_info    0x00000000     0x2b4b CMakeFiles/Autonomous-Navigation.dir/Autonomous-Navigation.cpp.obj
- .debug_info    0x00002b4b     0x184b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00004396      0x1fb CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00004591      0x69a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00004c2b      0x5fa CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00005225     0x1c43 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00006e68     0x1350 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/sem.c.obj
- .debug_info    0x000081b8      0x1a3 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x0000835b     0x1d29 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000a084      0x2cb CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x0000a34f     0x33f9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
- .debug_info    0x0000d748     0x145b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000eba3      0xe82 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000fa25      0xfe7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00010a0c      0x505 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x00010f11      0x4d8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x000113e9      0x1c7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x000115b0      0xf23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x000124d3     0x19db CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00013eae       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00013ed1      0x331 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00014202       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x00014225       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00014248      0x365 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x000145ad       0x24 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x000145d1       0x24 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x000145f5       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x00014618      0x33a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x00014952       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00014975       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00014998      0x2e2 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00014c7a     0x1747 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x000163c1      0x76e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_info    0x00016b2f     0x175e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_info    0x0001828d      0x5d6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_info    0x00018863      0x281 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_info    0x00018ae4     0x127a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_info    0x00019d5e     0x20ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x0001be2c      0xfd0 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x0001cdfc     0x3a52 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x0002084e      0x860 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x000210ae     0x1b2a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x00022bd8     0x14de CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x000240b6     0x27f4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_info    0x000268aa     0x2254 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pio/pio.c.obj
- .debug_info    0x00028afe     0x193a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
- .debug_info    0x0002a438      0x7f8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
- .debug_info    0x0002ac30     0x4f84 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- .debug_info    0x0002fbb4     0x5879 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ll.c.obj
- .debug_info    0x0003542d     0x27af CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- .debug_info    0x00037bdc      0xa63 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_dma/dma.c.obj
- .debug_info    0x0003863f     0x1d6d CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
- .debug_info    0x0003a3ac     0x1aca CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
- .debug_info    0x0003be76      0xa95 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
+.debug_info     0x00000000    0x3c916
+ .debug_info    0x00000000     0x2b56 CMakeFiles/Autonomous-Navigation.dir/Autonomous-Navigation.cpp.obj
+ .debug_info    0x00002b56     0x184b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x000043a1      0x1fb CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x0000459c      0x69a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00004c36      0x5fa CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00005230     0x1c43 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00006e73     0x1350 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/sem.c.obj
+ .debug_info    0x000081c3      0x1a3 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00008366     0x1d29 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000a08f      0x2cb CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x0000a35a     0x33f9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+ .debug_info    0x0000d753     0x145b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0000ebae      0xe82 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000fa30      0xfe7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x00010a17      0x505 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x00010f1c      0x4d8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x000113f4      0x1c7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000115bb      0xf23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x000124de     0x19db CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00013eb9       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00013edc      0x331 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x0001420d       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00014230       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00014253      0x365 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x000145b8       0x24 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x000145dc       0x24 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00014600       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x00014623      0x33a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0001495d       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00014980       0x23 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x000149a3      0x2e2 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x00014c85     0x1747 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x000163cc      0x76e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_info    0x00016b3a     0x175e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_info    0x00018298      0x5d6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_info    0x0001886e      0x281 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_info    0x00018aef     0x127a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_info    0x00019d69     0x20ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x0001be37      0xfd0 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x0001ce07     0x3a52 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x00020859      0x860 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x000210b9     0x1b2a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x00022be3     0x14de CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x000240c1     0x27f4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x000268b5     0x2254 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_info    0x00028b09     0x193a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+ .debug_info    0x0002a443      0x7f8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+ .debug_info    0x0002ac3b     0x4f84 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ .debug_info    0x0002fbbf     0x5879 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ll.c.obj
+ .debug_info    0x00035438     0x27af CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ .debug_info    0x00037be7      0xa63 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_info    0x0003864a     0x1d6d CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+ .debug_info    0x0003a3b7     0x1aca CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+ .debug_info    0x0003be81      0xa95 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
 
-.debug_abbrev   0x00000000     0xa03d
- .debug_abbrev  0x00000000      0x4ab CMakeFiles/Autonomous-Navigation.dir/Autonomous-Navigation.cpp.obj
- .debug_abbrev  0x000004ab      0x3a6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00000851       0xf8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x00000949      0x2ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x00000c17      0x249 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000e60      0x500 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00001360      0x3ae CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/sem.c.obj
- .debug_abbrev  0x0000170e      0x116 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00001824      0x3f1 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00001c15      0x1ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
- .debug_abbrev  0x00001de3      0x5c3 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
- .debug_abbrev  0x000023a6      0x3d5 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x0000277b      0x290 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x00002a0b      0x434 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x00002e3f      0x1e7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x00003026      0x1a8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x000031ce      0x10c CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x000032da      0x530 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x0000380a      0x371 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x00003b7b       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x00003b8d      0x167 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x00003cf4       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x00003d06       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x00003d18      0x1df CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x00003ef7       0x14 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x00003f0b       0x14 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x00003f1f       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x00003f31      0x1c3 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x000040f4       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00004106       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x00004118       0xb8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x000041d0      0x467 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x00004637      0x2ca CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_abbrev  0x00004901      0x543 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_abbrev  0x00004e44      0x15a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_abbrev  0x00004f9e      0x181 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_abbrev  0x0000511f      0x2bd CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_abbrev  0x000053dc      0x563 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_abbrev  0x0000593f      0x449 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_abbrev  0x00005d88      0x648 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_abbrev  0x000063d0      0x2e8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_abbrev  0x000066b8      0x4b9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_abbrev  0x00006b71      0x472 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
- .debug_abbrev  0x00006fe3      0x47a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_abbrev  0x0000745d      0x4d9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pio/pio.c.obj
- .debug_abbrev  0x00007936      0x47c CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
- .debug_abbrev  0x00007db2      0x25e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
- .debug_abbrev  0x00008010      0x65c CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- .debug_abbrev  0x0000866c      0x4d2 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ll.c.obj
- .debug_abbrev  0x00008b3e      0x5be CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- .debug_abbrev  0x000090fc      0x265 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_dma/dma.c.obj
- .debug_abbrev  0x00009361      0x554 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
- .debug_abbrev  0x000098b5      0x4cf CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
- .debug_abbrev  0x00009d84      0x2b9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
+.debug_abbrev   0x00000000     0xa03c
+ .debug_abbrev  0x00000000      0x4aa CMakeFiles/Autonomous-Navigation.dir/Autonomous-Navigation.cpp.obj
+ .debug_abbrev  0x000004aa      0x3a6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x00000850       0xf8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x00000948      0x2ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x00000c16      0x249 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000e5f      0x500 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x0000135f      0x3ae CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/sem.c.obj
+ .debug_abbrev  0x0000170d      0x116 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00001823      0x3f1 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00001c14      0x1ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+ .debug_abbrev  0x00001de2      0x5c3 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x000023a5      0x3d5 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x0000277a      0x290 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x00002a0a      0x434 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x00002e3e      0x1e7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x00003025      0x1a8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x000031cd      0x10c CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x000032d9      0x530 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x00003809      0x371 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x00003b7a       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x00003b8c      0x167 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x00003cf3       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x00003d05       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x00003d17      0x1df CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x00003ef6       0x14 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x00003f0a       0x14 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x00003f1e       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x00003f30      0x1c3 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x000040f3       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x00004105       0x12 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x00004117       0xb8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x000041cf      0x467 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00004636      0x2ca CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_abbrev  0x00004900      0x543 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_abbrev  0x00004e43      0x15a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_abbrev  0x00004f9d      0x181 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_abbrev  0x0000511e      0x2bd CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_abbrev  0x000053db      0x563 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_abbrev  0x0000593e      0x449 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_abbrev  0x00005d87      0x648 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_abbrev  0x000063cf      0x2e8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_abbrev  0x000066b7      0x4b9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_abbrev  0x00006b70      0x472 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+ .debug_abbrev  0x00006fe2      0x47a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_abbrev  0x0000745c      0x4d9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_abbrev  0x00007935      0x47c CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+ .debug_abbrev  0x00007db1      0x25e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+ .debug_abbrev  0x0000800f      0x65c CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ .debug_abbrev  0x0000866b      0x4d2 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ll.c.obj
+ .debug_abbrev  0x00008b3d      0x5be CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ .debug_abbrev  0x000090fb      0x265 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_abbrev  0x00009360      0x554 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+ .debug_abbrev  0x000098b4      0x4cf CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+ .debug_abbrev  0x00009d83      0x2b9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
 
 .debug_loclists
                 0x00000000    0x190dd
@@ -5228,61 +5228,61 @@ LOAD linker stubs
  .debug_rnglists
                 0x00001ec5       0x97 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
 
-.debug_line     0x00000000    0x2135a
- .debug_line    0x00000000     0x11a2 CMakeFiles/Autonomous-Navigation.dir/Autonomous-Navigation.cpp.obj
- .debug_line    0x000011a2      0xc07 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001da9      0x287 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00002030      0x48b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x000024bb      0x475 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00002930     0x1067 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00003997      0xb37 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/sem.c.obj
- .debug_line    0x000044ce      0x238 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00004706     0x10dc CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000057e2      0x2ca CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00005aac     0x19c2 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
- .debug_line    0x0000746e      0xc0b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00008079      0x818 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
- .debug_line    0x00008891      0xa17 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000092a8      0x509 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000097b1      0x45e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00009c0f      0x2aa CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00009eb9      0xb00 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000a9b9     0x12ae CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000bc67      0x11a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000bd81      0x275 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000bff6      0x2a9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000c29f      0x3f5 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000c694      0x3bc CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000ca50       0x60 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000cab0       0x61 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000cb11      0x3a6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000ceb7      0x396 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000d24d       0x94 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000d2e1       0xa5 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000d386      0x1ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000d554      0xed4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000e428      0x4ad CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000e8d5      0xda4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000f679      0x337 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000f9b0      0x3ae CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x0000fd5e      0x8b4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x00010612      0xf06 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00011518      0xab6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x00011fce     0x1eed CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x00013ebb      0x533 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x000143ee      0xd77 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00015165      0xbf8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x00015d5d     0x17c7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x00017524      0xf31 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pio/pio.c.obj
- .debug_line    0x00018455      0xb75 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
- .debug_line    0x00018fca      0x4b9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
- .debug_line    0x00019483     0x1ee9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- .debug_line    0x0001b36c     0x25fb CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ll.c.obj
- .debug_line    0x0001d967     0x1201 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- .debug_line    0x0001eb68      0x658 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_dma/dma.c.obj
- .debug_line    0x0001f1c0      0xd8e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
- .debug_line    0x0001ff4e      0xcc7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
- .debug_line    0x00020c15      0x745 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
+.debug_line     0x00000000    0x21386
+ .debug_line    0x00000000     0x11ce CMakeFiles/Autonomous-Navigation.dir/Autonomous-Navigation.cpp.obj
+ .debug_line    0x000011ce      0xc07 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001dd5      0x287 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000205c      0x48b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x000024e7      0x475 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x0000295c     0x1067 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x000039c3      0xb37 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/sem.c.obj
+ .debug_line    0x000044fa      0x238 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00004732     0x10dc CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000580e      0x2ca CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00005ad8     0x19c2 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+ .debug_line    0x0000749a      0xc0b CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000080a5      0x818 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+ .debug_line    0x000088bd      0xa17 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x000092d4      0x509 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000097dd      0x45e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00009c3b      0x2aa CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00009ee5      0xb00 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000a9e5     0x12ae CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000bc93      0x11a CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000bdad      0x275 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000c022      0x2a9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000c2cb      0x3f5 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000c6c0      0x3bc CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000ca7c       0x60 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000cadc       0x61 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000cb3d      0x3a6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000cee3      0x396 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000d279       0x94 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000d30d       0xa5 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000d3b2      0x1ce CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000d580      0xed4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000e454      0x4ad CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000e901      0xda4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000f6a5      0x337 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000f9dc      0x3ae CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x0000fd8a      0x8b4 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0001063e      0xf06 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x00011544      0xab6 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x00011ffa     0x1eed CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x00013ee7      0x533 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x0001441a      0xd77 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00015191      0xbf8 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00015d89     0x17c7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x00017550      0xf31 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_line    0x00018481      0xb75 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+ .debug_line    0x00018ff6      0x4b9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+ .debug_line    0x000194af     0x1ee9 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ .debug_line    0x0001b398     0x25fb CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ll.c.obj
+ .debug_line    0x0001d993     0x1201 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ .debug_line    0x0001eb94      0x658 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_line    0x0001f1ec      0xd8e CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+ .debug_line    0x0001ff7a      0xcc7 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+ .debug_line    0x00020c41      0x745 CMakeFiles/Autonomous-Navigation.dir/home/divan/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_base.c.obj
 
 .debug_str      0x00000000     0xa535
  .debug_str     0x00000000     0xa535 CMakeFiles/Autonomous-Navigation.dir/Autonomous-Navigation.cpp.obj

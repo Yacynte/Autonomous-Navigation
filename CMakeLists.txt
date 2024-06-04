@@ -41,7 +41,11 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(Autonomous-Navigation Autonomous-Navigation.cpp )
+add_executable(Autonomous-Navigation Autonomous-Navigation.cpp)# setup_ports.cpp functions.cpp)
+
+# add_executable(ports ports.cpp )
+
+# add_executable(functions functions.cpp )
 
 pico_set_program_name(Autonomous-Navigation "Autonomous-Navigation")
 pico_set_program_version(Autonomous-Navigation "0.1")
@@ -55,7 +59,7 @@ pico_enable_stdio_usb(Autonomous-Navigation 1)
 
 # Add the standard library to the build
 target_link_libraries(Autonomous-Navigation
-        pico_stdlib hardware_pwm)
+        pico_stdlib hardware_pwm pico_cyw43_arch_lwip_threadsafe_background)
 
 # Add the standard include files to the build
 target_include_directories(Autonomous-Navigation PRIVATE
@@ -64,7 +68,7 @@ target_include_directories(Autonomous-Navigation PRIVATE
 )
 
 # Add any user requested libraries
-target_link_libraries(Autonomous-Navigation 
+target_link_libraries(Autonomous-Navigation
         hardware_spi
         hardware_i2c
         hardware_pio

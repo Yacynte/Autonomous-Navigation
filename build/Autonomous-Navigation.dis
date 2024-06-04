@@ -31,23 +31,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  13 .comment      00000044  00000000  00000000  00047e68  2**0
                   CONTENTS, READONLY
- 14 .debug_info   0003c90b  00000000  00000000  00047eac  2**0
+ 14 .debug_info   0003c916  00000000  00000000  00047eac  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_abbrev 0000a03d  00000000  00000000  000847b7  2**0
+ 15 .debug_abbrev 0000a03c  00000000  00000000  000847c2  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_loclists 000190dd  00000000  00000000  0008e7f4  2**0
+ 16 .debug_loclists 000190dd  00000000  00000000  0008e7fe  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_aranges 00001e18  00000000  00000000  000a78d8  2**3
+ 17 .debug_aranges 00001e18  00000000  00000000  000a78e0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_rnglists 00001f5c  00000000  00000000  000a96f0  2**0
+ 18 .debug_rnglists 00001f5c  00000000  00000000  000a96f8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   0002135a  00000000  00000000  000ab64c  2**0
+ 19 .debug_line   00021386  00000000  00000000  000ab654  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    0000a535  00000000  00000000  000cc9a6  2**0
+ 20 .debug_str    0000a535  00000000  00000000  000cc9da  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  00004bcc  00000000  00000000  000d6edc  2**2
+ 21 .debug_frame  00004bcc  00000000  00000000  000d6f10  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 00000312  00000000  00000000  000dbaa8  2**0
+ 22 .debug_line_str 00000312  00000000  00000000  000dbadc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/divan/pico/Autonomous-Navigation/build/Autonomous-Navigation.elf:     file format elf32-littlearm
