@@ -1,3 +1,0 @@
-/home/divan/pico/Autonomous-Navigation/build/pioasm/CMakeFiles/pioasm.dir
-/home/divan/pico/Autonomous-Navigation/build/pioasm/CMakeFiles/edit_cache.dir
-/home/divan/pico/Autonomous-Navigation/build/pioasm/CMakeFiles/rebuild_cache.dir

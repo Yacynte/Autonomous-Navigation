@@ -1,1 +1,0 @@
-cmd='/home/divan/.pico-sdk/cmake/v3.28.0-rc6/bin/cmake;-DCMAKE_MAKE_PROGRAM:FILEPATH=/home/divan/.pico-sdk/ninja/v1.12.1/ninja;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
