@@ -1,0 +1,7 @@
+# Ignore build directories
+/build/
+
+# Ignore compiled binaries
+*.o
+*.out
+*.bin
