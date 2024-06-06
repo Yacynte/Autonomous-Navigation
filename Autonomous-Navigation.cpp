@@ -1,22 +1,6 @@
 
-// Header guard
-#ifndef HEADERS_H
-#define HEADERS_H
 
-#include <stdio.h>
-#include "pico/stdlib.h"
-#include "hardware/spi.h"
-#include "hardware/i2c.h"
-#include "hardware/pio.h"
-#include "pico/cyw43_arch.h"
-#include "hardware/pwm.h"
-#include "blink.pio.h"
-#include "boards/pico.h" 
-
-#include "setup_ports.cpp" 
 #include "functions.cpp"
-
-#endif // Header guard
 
 
 int main()
@@ -88,6 +72,7 @@ int main()
     //uint speed_motor_A = 250;  // Set speed (0-255)
     //uint angular_speed = 0;  // Set speed (0-255)
     set_motor_speed(slice_num_A, speed, angular_speed);
+
     
     while (true) {
         
@@ -95,28 +80,18 @@ int main()
         float distance = measure_distance();
         gpio_put(LED_PIN, 1);
 
-        err_t recv_callback(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err) {
-        if (p == NULL) {
-            tcp_close(tpcb);
-            return ERR_OK;
-        }
-
-        // Handle received data
-        char command[32];
-        strncpy(command, (char *)p->payload, p->len);
-        command[p->len] = '\0';
-        printf("Received command: %s\n", command);
-        control_vehicle(command);
-
-        tcp_recved(tpcb, p->len);
-        pbuf_free(p);
-        return ERR_OK;
-        }
 
         printf("SET, MOTOR STATE AND SPEED!\r\n");
         printf("DISTANCE = %2f \n", distance);
 
-        while (distance >= 30)
+        if (received_command) {
+            printf("Main loop received command: %s\n", received_command);
+            control_vehicle(received_command);
+            free(received_command); // Free the memory
+            received_command = NULL; // Reset the pointer
+        }
+
+        /*while (distance >= 30)
         {
             set_motor_forward(true);
             distance = measure_distance();
@@ -128,8 +103,9 @@ int main()
             set_motor_rotate(true);
             distance = measure_distance();
             printf("ROTATE  \r\n");
-        }
+        } */
     }
+
 
 }
 

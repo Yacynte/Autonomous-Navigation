@@ -1,21 +1,9 @@
 // Header guard
-#ifndef HEADERS_H
-#define HEADERS_H
 
-#include "setup_ports.cpp"
-#include <iostream>
-#include <stdio.h>
-#include "blink.pio.h"
-#include "hardware/pwm.h"
-#include "boards/pico.h" 
-#include "hardware/gpio.h"
-#include "pico/cyw43_arch.h"
-#include "pico/stdio_usb.h"
-#include "lwip/tcp.h"
+#include "common_headers.h"
+//#include "functions.h"
+#include "ports.h"
 
-#endif 
-
-uint16_t speed = 0; uint16_t angular_speed = 0;
 
 void blink_pin_forever(PIO pio, uint sm, uint offset, uint pin, uint freq) {
     blink_program_init(pio, sm, offset, pin);
@@ -32,7 +20,6 @@ void blink_pin_forever(PIO pio, uint sm, uint offset, uint pin, uint freq) {
 void usb_serial_init() {
     stdio_usb_init();
 }
-
 
 void init_ultrasonic() {
     gpio_init(TRIGGER_PIN);
@@ -114,11 +101,7 @@ void motor_stop(bool stop) {
     gpio_put(Right_Motor_IN4, stop ? 0 : 1);
 }
 
-#define WIFI_SSID "Vodafone-AE61"
-#define WIFI_PASSWORD "Opportunity2021"
-#define SERVER_PORT 80
-
-static struct tcp_pcb *server_pcb;
+uint16_t speed = 0; uint16_t angular_speed = 0;
 
 void control_vehicle(const char *command) {
     if (strcmp(command, "forward") == 0) {
@@ -162,3 +145,51 @@ void set_motor_B_speed(uint slice_num, uint16_t speed) {
     pwm_set_gpio_level(ENA, speed);
     pwm_set_gpio_level(ENB, speed);
 }
+
+// Function to handle received data
+// char received_command[MAX_COMMAND_LEN];
+char *received_command = NULL;
+err_t recv_callback(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err) {
+    if (p != NULL) {
+        // Process received data
+        memcpy(received_command, p->payload, p->len);
+        received_command[p->len] = '\0'; // Null-terminate the string
+        printf("Received command: %s\n", received_command);
+
+        // Pass the received command to the main loop
+        //*((char **)arg) = strdup(command);
+
+        // Free the pbuf
+        pbuf_free(p);
+    } else {
+        // Connection closed by client
+        tcp_close(tpcb);
+    }
+    return ERR_ABRT; // Abort the connection
+}
+
+err_t accept_callback(void *arg, struct tcp_pcb *newpcb, err_t err) {
+    tcp_recv(newpcb, recv_callback);
+    return ERR_OK;
+}
+
+static struct tcp_pcb *server_pcb;
+void setup_tcp_server() {
+    server_pcb = tcp_new_ip_type(IPADDR_TYPE_ANY);
+    if (!server_pcb) {
+        printf("Failed to create PCB\n");
+        return;
+    }
+
+    err_t err = tcp_bind(server_pcb, IP_ANY_TYPE, SERVER_PORT);
+    if (err != ERR_OK) {
+        printf("Failed to bind PCB: %d\n", err);
+        return;
+    }
+
+    server_pcb = tcp_listen(server_pcb);
+    tcp_accept(server_pcb, accept_callback);
+
+    printf("Server listening on port %d\n", SERVER_PORT);
+}
+

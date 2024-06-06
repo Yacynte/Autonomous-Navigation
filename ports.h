@@ -1,10 +1,9 @@
 // Header guard
-#ifndef HEADERS_H
-#define HEADERS_H
+#ifndef PORTS_H
+#define PORTS_H
 
 #include "pico/stdlib.h"
 
-#endif 
 // SPI Defines
 // We are going to use SPI 0, and allocate it to the following GPIO pins
 // Pins can be changed, see the GPIO function select table in the datasheet for information on GPIO assignments
@@ -32,3 +31,10 @@
 #define I2C_PORT i2c0
 #define I2C_SDA 8
 #define I2C_SCL 9
+
+#define WIFI_SSID "Vodafone-AE61"
+#define WIFI_PASSWORD "Opportunity2021"
+#define SERVER_PORT 80
+#define MAX_COMMAND_LEN 50
+
+#endif 

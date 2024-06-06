@@ -25,6 +25,19 @@ endif()
 # ====================================================================================
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
+
+# Specify include directories
+include_directories(${PICO_SDK_PATH}/lib/pico_sdk/include
+                    ${PICO_SDK_PATH}/lib/hardware/include
+                    ${PICO_SDK_PATH}/lib/lwip/include
+                    ${PICO_SDK_PATH}/lib/pico_cyw43_arch/include
+                    ${PICO_SDK_PATH}/lib/pico_stdio/include
+                    ${CMAKE_CURRENT_SOURCE_DIR}
+                    ${PICO_SDK_PATH}/lib/lwip/src/include/lwip/
+                    /usr/include/c++
+)
+
+
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
@@ -41,9 +54,10 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(Autonomous-Navigation Autonomous-Navigation.cpp)# setup_ports.cpp functions.cpp)
+add_executable(Autonomous-Navigation 
+                Autonomous-Navigation.cpp)
 
-# add_executable(ports ports.cpp )
+# add_executable(setup_ports setup_ports.cpp )
 
 # add_executable(functions functions.cpp )
 
@@ -58,8 +72,7 @@ pico_enable_stdio_uart(Autonomous-Navigation 0)
 pico_enable_stdio_usb(Autonomous-Navigation 1)
 
 # Add the standard library to the build
-target_link_libraries(Autonomous-Navigation
-        pico_stdlib hardware_pwm pico_cyw43_arch_lwip_threadsafe_background)
+# target_link_libraries(Autonomous-Navigation pico_cyw43_arch_lwip_threadsafe_background pico_stdlib hardware_pwm)
 
 # Add the standard include files to the build
 target_include_directories(Autonomous-Navigation PRIVATE
@@ -69,10 +82,13 @@ target_include_directories(Autonomous-Navigation PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(Autonomous-Navigation
+        pico_stdlib 
+        pico_cyw43_arch_lwip_threadsafe_background
+        hardware_gpio
+        hardware_pwm
         hardware_spi
         hardware_i2c
         hardware_pio
-        pico_cyw43_arch_none
         )
 
 pico_add_extra_outputs(Autonomous-Navigation)
